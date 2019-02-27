@@ -4,4 +4,4 @@ orbs:
 workflows:
   build:
     jobs:
-      - cypress/run # "run" job comes from "cypress" orb
+      - npm run e2e # "run" job comes from "cypress" orb
